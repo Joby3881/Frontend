@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		.container{
+			height: 100vh;
+			min-width: 1000px;
+			border: 2px solid black;
+		}
+		.header{
+			height: 12%;
+			min-width: none;
+			border: 1px solid black;
+			display: flex;
+			justify-content: center;
+			min-width: 1000px;
+			border-radius: 5px;
+		}
+		.head1{
+			width: 13%;
+			margin-top: 7px;
+			/* border: 2px solid black; */
+		}
+		.head2{
+			width: 30%;
+			display: flex;
+			/* border: 2px solid yellow; */
+			justify-content: center;
+			align-items: center;
+		}
+		.head3{
+			width: 50%;
+			/* border: 2px solid purple; */
+			display: flex;
+			justify-content:flex-start;
+			align-items: center;
+		}
+		.a1{
+			height: 85%;
+			width: 90%;
+		}
+		.head2 input{
+			width: 90%;
+			height: 60%;
+			border-radius: 5px;
+			border: 1px solid rgb(241, 187, 51);
+			font-weight: bolder ;
+			font-size:large;
+		}
+		.content{
+			height: 75%;
+			width: 27%;
+			border: 2px solid black;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			border-top: 0px;
+			border-bottom: 0px;
+			border-left: 0px;
+			margin-bottom: 0px;
+		}
+		.phone1{
+			width: 19%;
+			height: 65%;
+			/* border: 2px solid red; */
+		}
+		.a2{
+			width: 100%;
+			height: 100%;
+		}
+		.phone2{
+			width: 68%;
+			height: 45%;
+			/* border: 2px solid green; */
+			align-items: center;
+			justify-content: center;
+		}
+		span{
+			font-size: 29px;
+			font-weight: bolder;
+		}
+		.con2{
+			border-right: 0px;
+			border-top: 0px;
+			border-bottom: 0px;
+			margin-bottom: 5px;
+		}
+		.con1{
+			border-top: 0px;
+			border-bottom: 0px;
+			margin-bottom: 5px;
+		}
+		.box{
+			height: 60%;
+			width: 40%;
+			border: 2px solid blue;
+		}
+		.medium{
+			height: 88%;
+			/* border: 2px solid blue; */
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			background-color:  rgb(251, 210, 217);
+		}
+		.logo{
+			height: 90%;
+			width: 25%;
+			/* border: 2px dotted darkmagenta; */
+			border-radius: 15px;
+			background-color: white;
+		}
+		.last1{
+			height: 32%;
+			/* border: 2px solid blue; */
+		}
+		.last2{
+			height: 30%;
+			/* border: 2px solid orangered; */
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: end;
+		}
+		.last3{
+			height: 38%;
+			/* border: 2px solid black; */
+			display: flex;
+            flex-direction: column;
+            justify-content: end;
+            align-items: center;
+		}
+		.foot{
+            /* border: 2px dotted darkblue; */
+            height: 8%;
+            width: 80%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: gray;
+        }
+		.ft1{
+			color: gray;
+			font-size: large;
+		}
+		.ft2{
+            color: rgb(226, 43, 192);
+            margin-bottom: 20px;
+			font-size: large;
+        }
+		.a3{
+			height: 100%;
+			width: 100%;
+		}
+		.detail{
+			width: 80%;
+			/* border: 2px solid brown; */
+		}
+		.del1{
+			height: 25%;
+			font-size: large;
+		}
+		.del2{
+			height: 38%;
+			display: flex;
+			flex-wrap: wrap;
+			/* justify-content: space-between; */
+			gap: 7px;
+		}
+		.del3{
+			height: 28%;
+		}
+		button{
+			height: 100%;
+            width: 100%;
+            border: none;
+            background-color: rgb(226, 43, 192);
+            color: white;
+            font-size: medium;
+            border-radius: 5px;
+		}
+		.contact{
+            /* border: 2px dotted darkgoldenrod; */
+            width: 30%;
+            color: gray;
+            height: 40%;
+        }
+		.cont1{
+			width: 12%;
+		}
+		.cont2{
+            width: 3%;
+            /* height: 40%; */
+        }
+		.cont3{
+			width: 18%;
+            color: black;
+            border-bottom: 2px solid gray;
+        }
+		.cont4{
+            width: 48%;
+            border-bottom:2px solid red;
+        }
+		.cont4 input{
+            border: none;
+        }
+
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<div class="head1">
+				<img class="a1" src="https://vectorseek.com/wp-content/uploads/2023/09/Meesho-Logo-Vector.svg-.png" alt="">
+			</div>
+			<div class="head2">
+				<input type="text" placeholder="Try Saree,Kurti or Search by Product Code">
+			</div>
+			<div class="head3">
+				<div class="content">
+					<div class="phone1">
+						<img class="a2" src="https://cdn-icons-png.flaticon.com/512/0/191.png" alt="">
+					</div>
+					<div class="phone2">
+						<span>Download App</span>
+					</div>
+				</div>
+				<div class="content con1">
+					<span>Become a Supplier</span>
+				</div>
+				<div class="content con2">
+					<span>newsroom</span>
+				</div>
+			</div>	
+		</div>
+		<div class="medium">
+			<div class="logo">
+				<div class="last1">
+					<img class="a3" src="https://images.meesho.com/images/marketing/1661417516766.webp" alt="">
+				</div>
+				<div class="last2">
+					<div class="detail del1">
+						Sign up to view your profile
+					</div>
+					<div class="detail del2">
+						<div class="contact cont1">
+							Country
+						</div>
+						<div class="contact cont2">
+						   
+						</div>
+						<div class="contact cont3">
+						   IN +91
+						</div>
+						<div class="contact cont4">
+							<input type="phone number" placeholder="Phone Number">
+						</div>
+					</div>
+					<div class="detail del3">
+						<button>Continue</button>
+					</div>
+				</div>
+				<div class="last3">
+					<div class="foot ft1">
+					   <h5> By continuing,you agree to Meesho's</h5>
+					</div>
+					<div class="foot ft2">
+						<h5>Terms & Condition <span style="color: gray;"> and </span> Privacy Policy</h5>
+				</div>
+		</div>
+	</div>
+</body>
+</html>
