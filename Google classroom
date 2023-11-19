@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 2290px;
+            height: 100vh;
+            border: 2px solid rgb(114, 94, 94);
+        }
+        .main{
+            height: 7%;
+            width: 100%;
+            display: flex;
+            border: 2px solid rgb(112, 96, 96);
+            align-items: center;
+            justify-content: space-between;
+        }
+        .img1{
+            height: 92%;
+            width: 10%;
+            display: flex;
+            /* border: 2px solid black; */
+            align-items: center;
+            justify-content: space-between;
+        }
+        .logo1{
+            height: 92%;
+            width: 42%;
+            /* border: 2px solid red; */
+            text-align: center;
+        }
+        .im1{  
+            height: 85%;
+            width: 80%;
+            padding-top: 4%;
+        }
+        .im2{
+            height: 95%;
+            width: 85%;
+        }
+        .midbox1{
+            height: 92%;
+            width: 11%;
+            display: flex;
+            /* border: 2px solid blueviolet; */
+        }
+        .name{
+            font-size: 52px;
+            color:  green;
+            font-family: "Google Sans",Roboto,Arial,sans-serif;
+            font-weight: bold;
+        }
+        .midbox2{
+            height: 92%;
+            width: 65%;
+            /* border: 2px solid black; */
+        }
+        .img2{
+            height: 92%;
+            width: 11%;
+            display: flex;
+            /* border: 2px solid black; */
+            align-items: center;
+            justify-content: space-between;
+        }
+        .h1{
+            height: 92%;
+            width: 30%;
+            display: flex;
+            /* border: 2px solid blue; */
+            justify-content: center;
+            align-items: center;
+        }
+        .one{
+            height: 80%;
+            width: 80%;
+            /* border: 2px solid black; */
+        }
+        .h2{
+            height: 85%;
+            width: 30%;
+            display: flex;
+            /* border: 2px solid red; */
+        }
+        .plus{
+            height: 60%;
+            width: 63%;
+            padding-left: 7px;
+            padding-top: 8px;
+        }
+        .plus1{
+            height: 60%;
+            width: 65%;
+            padding-left: 8px;
+            padding-top: 7px;
+        }
+        .plus2{
+            height: 100%;
+            width: 100%;
+            padding-bottom: 4px;
+        }
+        .box1{
+            height: 93%;
+            width: 100%;
+            /* border: 1px solid black; */
+            display: flex;
+        }
+        .innerbox1{
+            height: 100%;
+            width: 20%;
+            /* border: 1px solid rgb(110, 92, 92); */
+        }
+       .subBox1{
+        height: 20%;
+        width: 100%;
+        border: 2px solid rgb(111, 91, 91);
+        border-right: 0px;
+        border-left: 0px;
+       }
+       .dib1{
+        height: 50%;
+        width: 100%;
+        /* border: 2px solid rgb(110, 89, 89); */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+        border-top: 0px;
+        border-bottom: 0px;
+       }
+       .smalldib1{
+        height: 70%;
+        width: 20%;
+        /* border: 2px solid rgb(110, 89, 89); */
+       }
+       .home{
+        height:100%;
+        width:100%;
+       }
+       .smalldib2{
+        height: 70%;
+        width: 60%;
+        /* border: 2px solid rgb(110, 89, 89); */
+        display: flex;
+        align-items: center;
+        justify-content:flex-start;
+       }
+       .hname{
+        font-size: xx-large;
+       }
+       .dib2{
+        height: 50%;
+        width: 100%;
+        border: 2px solid rgb(110, 82, 82);
+        border-bottom: 3px solid rgb(110, 80, 80);
+        border-right: 0px;
+        display: flex;
+       justify-content: center;
+       align-items: center;
+       justify-content: space-around ;
+       }
+       .subBox2{
+        height: 40%;
+        width: 100%;
+        /* border: 2px solid rgb(110, 91, 91); */
+        border-top: 0px;
+       }
+       .colums1{
+        height: 20.2%;
+        width: 100%;
+        border: 2px solid black;
+        border-top: 0px;
+        border-right: 0px;
+        border-left: 0px;
+        display: flex;
+        justify-content: center;
+       align-items: center;
+       justify-content: space-around ;
+       }
+       .subBox3{
+        height: 40%;
+        width: 100%;
+        border: 2px solid rgb(110, 93, 93);
+        border-right: 0px;
+        border-top: 2px;
+       }
+       .s1{
+        height: 20%;
+        width: 100%;
+        border: 1px solid rgb(110, 93, 93);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+        border-right: 0px;
+        border-left: 0px;
+        border-top: 0px;
+       }
+       .innerbox2{
+            height: 100%;
+            width: 80%;
+            border: 1px solid rgb(110, 94, 94);
+            /* border-right: 0px; */
+        }
+        .class1{
+            height: 50%;
+            width: 100%;
+            /* border: 1px solid rgb(110, 94, 94); */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .part1{
+            height: 75%;
+            width: 22%;
+            border: 1px solid rgb(110, 93, 93);
+            border-radius: 5%;
+        }
+        .section1{
+            height: 20%;
+            width: 100%;
+            border: 1px solid rgb(110, 94, 94);
+            display: flex;
+            border-top: 0px;
+            border-left: 0px;
+            border-right: 0px;
+            border-top-right-radius: 10%;
+            border-top-left-radius: 10%;
+            background-color: rgb(161, 180, 237);
+        }
+        .s11{
+            height: 10%;
+            width: 100%;
+            border: 1px solid rgb(110, 94, 94);
+            background-color: rgb(245, 27, 132);
+        }
+        .section2{
+            height: 52%;
+            width: 100%;
+            /* border: 1px solid rgb(110, 94, 94); */
+            display: flex;
+        }
+        .section3{
+            height: 18%;
+            width: 100%;
+            border: 1px solid rgb(110, 94, 94);
+            display: flex;
+            border-left: 0px;
+            border-right: 0px;
+            border-bottom: 0px;
+        }
+        .a1{
+            height: 90%;
+            width: 60%;
+            /* border: 1px solid rgb(110, 94, 94); */
+        }
+        .a2{
+            height: 90%;
+            width: 20%;
+            /* border: 1px solid rgb(110, 94, 94); */
+        }
+        .a3{
+            height: 90%;
+            width: 20%;
+            /* border: 1px solid rgb(110, 94, 94); */
+        }
+        .h1{
+            color: white;
+            font-size: 30px;
+            font-weight: bolder;
+            height: 100%;
+            width: 100%;
+        }
+        .h2{
+            font-size: 20px;
+            height: 100%;
+            width: 100%;
+            font-weight: bolder;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
+        .pic1{
+            height: 85%;
+            width: 85%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <div class="img1">
+                <div class="logo1">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1N5kbBjpdDB7EMMwGWsq95foOO4_9GYYGXbCzZonyk4FU6N7T7gd4FcxwbqMN0AhGn_s&usqp=CAU" alt="" class="im1">
+                </div>
+                <div class="logo1">
+                    <img src="data:image/jpeg;base64,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" alt="" class="im2">
+                </div>
+            </div>
+            <div class="midbox1">
+                <p class="name">Classroom</p>
+            </div>
+            <div class="midbox2"></div>
+            <div class="img2">
+                <div class="h1">
+                    <div class="one">
+                        <img src="https://www.sfusd.edu/sites/default/files/styles/max_635/public/plusicon.jpeg?itok=VvyCKGLb" alt="" class="plus">
+                    </div>
+                </div>
+                <div class="h1">
+                    <div class="one">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAN0AAADdCAMAAAAIGocoAAAABlBMVEX///9tbW32nYMCAAABsklEQVR4nO3YwQnDUADD0HT/pbuCPyREpc8DCOnq6zIzM/unfY53I+pxWE5I3QzLCambYTkhdTMsJ6RuhuWE1M2wnJC6GZYTUjfDckLqZlhOSN0Mywmpm2E5IXUzLCekboblhNTNsJyQuhmWE1I3w3JC6mZYTkjdDMsJqZthOSF1MywnpG6G5YTUzbCckLoZlhNSN8NyQupmWE5I3SnMzMzMzMzMzMzMzF5d9T6+B5YTUjfDckLqZlhOSN0Mywmpm2E5IXUzLCekboblhNTNsJyQuhmWE1I3w3JC6mZYTkjdDMsJqZthOSF1MywnpG6G5YTUzbCckLoZlhNSN8NyQupmWE5I3QzLCambYTkhdTMsJ6RuhuWE1M2wnJC6GZYTUjfDckJPwMzMzMzMzMzMzMzs1VXv43tgOSF1MywnpG6G5YTUzbCckLoZlhNSN8NyQupmWE5I3QzLCambYTkhdTMsJ6RuhuWE1M2wnJC6GZYTUjfDckLqZlhOSN0Mywmpm2E5IXUzLCekboblhNTNsJyQuhmWE1I3w3JC6mZYTkjdDMsJqZthOSF1pzAzMzP7sX0B4CFcpTwdH7YAAAAASUVORK5CYII=" alt="" class="plus1">
+                    </div>
+                </div>
+                <div class="h1">
+                    <img src="https://lh3.googleusercontent.com/a/ACg8ocL3c17yoZHd0nw89WWR9EnfCN63nUMREQOY_9rZldlESA=s128-b16-cc-rp-mo" alt="" class="plus2">
+                </div>
+            </div>
+        </div> 
+        <div class="box1">
+            <div class="innerbox1">
+                <div class="subBox1">
+                    <div class="dib1">
+                        <div class="smalldib1">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxiM4Tkwy3Bfdsv_4yqU4a1CO2f_FQpe2FBqlfqfcMgZqJHRC5NSGMM38WY4cpECqa8Yw&usqp=CAU" alt="" class="home">
+                        </div>
+                        <div class="smalldib2">
+                            <p class="hname">Home</p>
+                        </div>
+                    </div>
+                    <div class="dib2">
+                        <div class="smalldib1">
+                            <img src="https://media.istockphoto.com/id/1172489050/vector/calendar-line-icon-editable-stroke-pixel-perfect-for-mobile-and-web.jpg?s=612x612&w=0&k=20&c=OMpnfZms0eFkzkNkOhxg-sLMbVh2_4mVz-LO-qkQhBw=" alt="" class="home">
+                        </div>
+                        <div class="smalldib2">
+                            <p class="hname">Calendar</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="subBox2">
+                    <div class="colums1">
+                        <div class="smalldib1">
+                            <img src="https://img.freepik.com/premium-vector/graduation-cap-symbol-education-illustration-design_92086-772.jpg?w=740" alt="" class="home">
+                        </div>
+                        <div class="smalldib2">
+                            <p class="hname">Enrolled</p>
+                        </div>
+                    </div>
+                    <div class="colums1">
+                        <div class="smalldib1">
+                            <img src="https://static.vecteezy.com/system/resources/previews/005/378/259/original/to-do-list-linear-icon-thin-line-illustration-notepad-with-pencil-taking-notes-checklist-contour-symbol-isolated-outline-drawing-vector.jpg" alt="" class="home">
+                        </div>
+                        <div class="smalldib2">
+                            <p class="hname">To-do</p>
+                        </div>
+                    </div>
+                    <div class="colums1">
+                        <div class="smalldib1">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1ho6mlm81Df_mVAZfunSSQH5Ac5iRMKPPqbiGeuI&s" alt="" class="home">
+                        </div>
+                        <div class="smalldib2">
+                            <p class="hname">JAVA full stack</p>
+                        </div>
+                    </div>
+                    <div class="colums1">
+                        <div class="smalldib1">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGq88umjDtcyvgGCRGf9ciQusNb9gcFTfRhxWwPZyaUN4mkk8JQW5Tw5FX_2Fs3abDAws&usqp=CAU" alt="" class="home">
+                        </div>
+                        <div class="smalldib2">
+                            <p class="hname">SQL</p>
+                        </div>
+                    </div>
+                    <div class="colums1">
+                        <div class="smalldib1">
+                            <img src="data:image/png;base64,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" alt="" class="home">
+                        </div>
+                        <div class="smalldib2">
+                            <p class="hname">Frontend</p>  
+                        </div>
+                    </div>
+                </div>
+                <div class="subBox3">
+                    <div class="s1">
+                        <div class="smalldib1">
+                            <img src="https://t4.ftcdn.net/jpg/01/26/12/45/360_F_126124536_gkdgFNNCEfKAX3elm63W2CJ4APZ9HGLn.jpg" alt="" class="home">
+                        </div>
+                        <div class="smalldib2">
+                            <p class="hname">Arichived classes</p>  
+                        </div>
+                    </div>
+                    <div class="s1">
+                        <div class="smalldib1">
+                            <img src="https://previews.123rf.com/images/giamportone/giamportone1711/giamportone171100824/90849935-gear-and-settings-icon-symbol-outline-vector.jpg" alt="" class="home">
+                        </div>
+                        <div class="smalldib2">
+                            <p class="hname">Settings</p>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="innerbox2">
+                <div class="class1">
+                    <div class="part1">
+                        <dvi class="section1">
+                            <p class="h1">Frontend Sesssion...</p>
+                        </dvi>
+                        <div class="s11">
+                            <p class="h2">Physical batch-C Jaipur REGex Software</p>
+                        </div>
+                        <dvi class="section2"></dvi>
+                        <dvi class="section3">
+                            <div class="a1"></div>
+                            <div class="a2">
+                                <img src="https://cdn-icons-png.flaticon.com/128/7980/7980574.png" alt="" class="pic1">
+                            </div>
+                            <div class="a3">
+                                <img src="https://creazilla-store.fra1.digitaloceanspaces.com/icons/3215710/folder-icon-md.png" alt="" class="pic1">
+                            </div>
+                        </dvi>
+                    </div>
+                    <div class="part1">
+                        <dvi class="section1">
+                            <p class="h1">JAVA FULL STACK DEV...</p>
+                        </dvi>
+                        <div class="s11">
+                            <p class="h2">Physical batch-C Jaipur REGex Software</p>
+                        </div>
+                        <dvi class="section2"></dvi>
+                        <dvi class="section3">
+                            <div class="a1"></div>
+                            <div class="a2">
+                                <img src="https://cdn-icons-png.flaticon.com/128/7980/7980574.png" alt="" class="pic1">
+                            </div>
+                            <div class="a3">
+                                <img src="https://creazilla-store.fra1.digitaloceanspaces.com/icons/3215710/folder-icon-md.png" alt="" class="pic1">
+                            </div>
+                        </dvi>
+                    </div>
+                    <div class="part1">
+                        <dvi class="section1"> 
+                            <p class="h1">SQL Session...</p>
+
+                        </dvi>
+                        <div class="s11">
+                            <p class="h2">Physical batch-C Jaipur REGex Software</p>
+                        </div>
+                        <dvi class="section2"></dvi>
+                        <dvi class="section3">
+                            <div class="a1"></div>
+                            <div class="a2">
+                                <img src="https://cdn-icons-png.flaticon.com/128/7980/7980574.png" alt="" class="pic1">
+                            </div>
+                            <div class="a3">
+                                <img src="https://creazilla-store.fra1.digitaloceanspaces.com/icons/3215710/folder-icon-md.png" alt="" class="pic1">
+                            </div>
+                        </dvi>
+                    </div>
+                </div>
+                <div class="class1">
+                    <div class="part1">
+                        <dvi class="section1">
+                            <p class="h1">CSS Session...</p>
+
+                        </dvi>
+                        <div class="s11">
+                            <p class="h2">Physical batch-C Jaipur REGex Software</p>
+                        </div>
+                        <dvi class="section2"></dvi>
+                        <dvi class="section3">
+                            <div class="a1"></div>
+                            <div class="a2">
+                                <img src="https://cdn-icons-png.flaticon.com/128/7980/7980574.png" alt="" class="pic1">
+                            </div>
+                            <div class="a3">
+                                <img src="https://creazilla-store.fra1.digitaloceanspaces.com/icons/3215710/folder-icon-md.png" alt="" class="pic1">
+                            </div>
+                        </dvi>
+                    </div>
+                    <div class="part1">
+                        <dvi class="section1">
+                            <p class="h1">C++ DSA Program...</p>
+                        </dvi>
+                        <div class="s11">
+                            <p class="h2">Physical batch-C Jaipur REGex Software</p>
+                        </div>
+                        <dvi class="section2"></dvi>
+                        <dvi class="section3">
+                            <div class="a1"></div>
+                            <div class="a2">
+                                <img src="https://cdn-icons-png.flaticon.com/128/7980/7980574.png" alt="" class="pic1">
+                            </div>
+                            <div class="a3">
+                                <img src="https://creazilla-store.fra1.digitaloceanspaces.com/icons/3215710/folder-icon-md.png" alt="" class="pic1">
+                            </div>
+                        </dvi>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
