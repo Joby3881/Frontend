@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=di, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .container{
+      width: 2200px;
+            height: 100vh;
+            border: 2px solid black;
+    }
+    .main{
+            height: 2%;
+            width: 100%;
+            display: flex;
+            border: 2px solid white;
+        }
+        .second{
+            height: 70%;
+            width: 100%;
+            display: flex;
+            border: 2px solid white;
+            justify-content: center;
+            align-items: center;
+        }
+        .box{
+          height: 100%;
+          width: 30%;
+          border: 2px solid blue;
+        }
+        .dibba1{
+          height: 33.1%;
+          width: 100%;
+          /* border: 2px solid yellow; */
+        }
+       .a1{
+        height: 49.5%;
+        width: 100%;
+        /* border: 2px solid green; */
+       }
+       .a12{
+        height: 25%;
+        width: 100%;
+        /* border: 2px solid black; */
+       }
+       .a13{
+        height: 50%;
+        width: 100%;
+        /* border: 2px solid black; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       }
+       .smalla1{
+        height: 90%;
+        width: 30%;
+        /* border: 2px solid black; */
+       }
+       .goog{
+        height: 100%;
+        width: 100%;
+       }
+       .b1{
+        height: 60%;
+        width: 100%;
+        /* border: 2px solid black; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       }
+       .b2{
+        height: 39%;
+        width: 100%;
+        /* border: 2px solid black; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       }
+       .smallb1{
+        height: 90%;
+        width: 30%;
+        /* border: 2px solid black; */
+       }
+       .smallb2{
+        height: 90%;
+        width: 40%;
+        /* border: 2px solid black; */
+       }
+       .sign{
+        text-align: center;
+        font-size: 30px;
+        font-weight: lighter;
+       }
+       .use{
+        text-align: center;
+        font-size: 20px;
+        letter-spacing: 1px;
+        word-spacing: 4px;
+       }
+       .dibba2{
+          height: 33.1%;
+          width: 100%;
+          /* border: 2px solid yellow; */
+        }
+        .z1{
+        height: 40%;
+        width: 100%;
+        /* border:2px solid rebeccapurple; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       }
+       .z2{
+        height: 29%;
+        width: 100%;
+        /* border:2px solid rebeccapurple; */
+       }
+        .dibba3{
+          height: 33.1%;
+          width: 100%;
+          /* border: 2px solid red; */
+        }
+        .enter{
+          height: 60%;
+          width: 70%;
+          border: 2px solid black;
+          border-radius: 10px;
+        }
+        .forget{
+          height: 40%;
+          width: 100%;
+          /* border: 2px solid black; */
+          display: flex;
+        }
+        .f1{
+          height: 90%;
+          width: 14%;
+          /* border: 2px solid black; */
+        }
+        .f2{
+          height: 90%;
+          width: 30%;
+          /* border: 2px solid black; */
+          display: flex;
+          padding-bottom: 23px;
+          align-items: first baseline;
+        }
+        .for{
+          font-size: large;
+          color: blue;
+        }
+        .z3{
+          height:29%;
+        width: 100%;
+        /* border:2px solid rebeccapurple; */
+        }
+        .red1{
+          height: 55%;
+          width: 88%;
+          /* border: 2px solid black; */
+        }
+        .not1{
+          text-align: center;
+          font-size: large;
+        }
+        .red2{
+          height: 50%;
+          width: 44%;
+          /* border: 2px solid black; */
+          font-size: large;
+        }
+        .not2{
+          text-align: center;
+          font-size: large;
+          color: blue;
+        }
+        .sbox1{
+          height: 20%;
+          width: 100%;
+          /* border: 2px solid black; */
+        }
+        .sbox2{
+          height: 60%;
+          width: 100%;
+          /* border: 2px solid black; */
+          display: flex;
+        }
+        .petti1{
+          height: 100%;
+          width: 50%;
+          /* border: 2px solid black; */
+          display: flex;
+          align-items: center;
+        justify-content: center;
+        }
+        .petti2{
+          height: 100%;
+          width: 50%;
+          /* border: 2px solid black; */
+          display: flex;
+          align-items: center;
+        justify-content: center;
+        }
+        .one{
+          height: 30%;
+          width: 40%;
+          /* border: 2px solid black; */
+        }
+        .two{
+          height: 30%;
+          width: 30%;
+          border: 2px solid rgb(151, 151, 231);
+          border-radius: 5px;
+          background-color: rgb(160, 160, 219);
+        }
+        .next{
+          text-align: center;
+          color: white;
+          font-weight: bolder;
+        }
+        .cre{
+          color: blue;
+          font-weight: bolder;
+        }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="main"></div>
+    <div class="second">
+      <div class="box">
+        <div class="dibba1">
+          <div class="a1">
+            <div class="a12">
+            </div>
+            <div class="a13">
+              <div class="smalla1">
+                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png" alt="" class="goog">
+              </div>
+            </div>
+          </div>
+          <div class="a1">
+            <div class="b1">
+              <div class="smallb1">
+                <p class="sign">Sign in</p>
+              </div>
+            </div>
+            <div class="b2">
+              <div class="smallb2">
+                <p class="use">Use your Google account</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="dibba2">
+          <div class="z1">
+            <div class="enter"></div>
+            <div class="enter2"></div>
+          </div>
+          <div class="z2">
+            <div class="forget">
+              <div class="f1">
+              </div>
+              <div class="f2">
+                <p class="for">Forgot email?</p>
+              </div>
+            </div>
+          </div>
+          <div class="z3">
+            <div class="red1">
+              <p class="not1">Not your computer? use Gust mode to sign in privately.</p>
+            </div>
+            <div class="red2">
+              <p class="not2">Not Lear More</p>
+            </div>
+          </div>
+        </div>
+        <div class="dibba3">
+          <div class="sbox1"></div>
+          <div class="sbox2">
+            <div class="petti1">
+              <div class="one">
+                <p class="cre">Create account</p>
+              </div>
+            </div>
+            <div class="petti2">
+              <div class="two">
+                <p class="next">Next</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
