@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Clock</title>
+  <style>
+    body{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: black;
+      color: #61dafb;
+      font-family: 'Arial', sans-serif;
+    }
+    .clock {
+      display: flex;
+      font-size: 4em;
+    }
+    .time {
+      margin: 0 0.2em;
+    }
+  </style>
+</head>
+<body>
+    <label for="mode">Select Mode:</label>
+  <select id="select">
+    <option value="light">Light Mode</option>
+    <option value="dark">Dark Mode</option>
+  </select>
+
+<div class="clock">
+  <div class="time" id="hours">00</div>
+  <div class="time">:</div>
+  <div class="time" id="minutes">00</div>
+  <div class="time">:</div>
+  <div class="time" id="seconds">00</div>
+  
+  <script>
+    function displayTime(){
+        let time = new Date();
+        let hour = time.getHours();
+        document.querySelector("#hours").innerHTML =hour;
+
+        let min = time.getMinutes();
+        document.querySelector("#minutes").innerHTML = min;
+
+        let sec = time.getSeconds();
+        document.querySelector("#seconds").innerHTML =sec;
+    }
+    setInterval(displayTime, 10);
+    displayTime();
+
+    document.getElementById("select").onclick=function(){
+    let a=document.getElementById("select").value;
+
+    if(a == "dark"){
+        document.body.style.backgroundColor = "black";
+      } else {
+        document.body.style.backgroundColor = "white";
+      }
+}
+  </script>
+</div>
+</body>
+</html>
